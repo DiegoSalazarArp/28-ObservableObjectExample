@@ -13,6 +13,8 @@
 		C793D4A9230510AA00B2C16E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793D4A8230510AA00B2C16E /* Assets.xcassets */; };
 		C793D4AC230510AA00B2C16E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793D4AB230510AA00B2C16E /* Preview Assets.xcassets */; };
 		C793D4AF230510AA00B2C16E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C793D4AD230510AA00B2C16E /* LaunchScreen.storyboard */; };
+		C793D4B7230510C800B2C16E /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793D4B6230510C800B2C16E /* UserSettings.swift */; };
+		C793D4B9230512F300B2C16E /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793D4B8230512F300B2C16E /* FancyScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C793D4AB230510AA00B2C16E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C793D4AE230510AA00B2C16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C793D4B0230510AA00B2C16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C793D4B6230510C800B2C16E /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		C793D4B8230512F300B2C16E /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C793D4AD230510AA00B2C16E /* LaunchScreen.storyboard */,
 				C793D4B0230510AA00B2C16E /* Info.plist */,
 				C793D4AA230510AA00B2C16E /* Preview Content */,
+				C793D4B6230510C800B2C16E /* UserSettings.swift */,
+				C793D4B8230512F300B2C16E /* FancyScoreView.swift */,
 			);
 			path = "28-ObservableObjectExample";
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C793D4A3230510A700B2C16E /* AppDelegate.swift in Sources */,
+				C793D4B7230510C800B2C16E /* UserSettings.swift in Sources */,
+				C793D4B9230512F300B2C16E /* FancyScoreView.swift in Sources */,
 				C793D4A5230510A700B2C16E /* SceneDelegate.swift in Sources */,
 				C793D4A7230510A700B2C16E /* ContentView.swift in Sources */,
 			);

@@ -9,8 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject  var userSettings: UserSettings
+    
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Text("\(self.userSettings.score)")
+                .font(.largeTitle)
+                .cornerRadius(15)
+            
+            Button("Increment Score"){
+                self.userSettings.score += 1
+            }.cornerRadius(15)
+            
+            FancyScoreView()
+        }
     }
 }
 
